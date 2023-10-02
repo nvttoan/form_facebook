@@ -1,0 +1,163 @@
+.header {
+  text-align: center;
+}
+
+.signup-form {
+  box-shadow: 0 2px 10px rgba(0, 0, 0.3, 0.4);
+}
+
+body {
+  background: rgb(228, 227, 224);
+}
+
+.signup-form {
+  font-family: "Roboto", sans-serif;
+  inline-size: 552px;
+  margin: 30px auto;
+  background: linear-gradient(to right, #ffffff 0%, #fafafa 50%, #ffffff 99%);
+  border-radius: 10px;
+}
+
+/*---------------------------------------*/
+
+/* Form Header */
+
+/*---------------------------------------*/
+
+.form-header {
+  padding-block-start: 5px;
+  border-start-start-radius: 10px;
+  border-end-start-radius: 10px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.form-header h4 {
+  margin-block-start: -20px;
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+  border-block-end: 1px solid #cccccc;
+}
+
+/*---------------------------------------*/
+
+/* Form Body */
+
+/*---------------------------------------*/
+
+.form-body {
+  padding: 10px 40px;
+  color: #666;
+}
+
+.form-group {
+  margin-block-end: 20px;
+}
+
+.form-body .form-input {
+  font-size: 17px;
+  box-sizing: border-box;
+  inline-size: 100%;
+  block-size: 34px;
+  padding-inline-start: 10px;
+  padding-inline-end: 10px;
+  color: #333333;
+  text-align: start;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: white;
+  outline: none;
+}
+
+.horizontal-group .left {
+  float: left;
+  width: 49%;
+}
+
+.horizontal-group .right {
+  float: right;
+  width: 49%;
+}
+
+.birthday {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 -5px;
+  /* Để cách lề trái và lề phải bằng 0 */
+}
+
+.birthday-select {
+  flex: 1;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0 5px;
+  /* Tạo khoảng cách giữa các select */
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 -5px;
+}
+
+.gender-button {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  margin: 0 5px;
+}
+
+.gender-button input[type="radio"] {
+  order: 2;
+  /* Đổi chỗ nút radio với văn bản */
+  margin-inline-start: 40px;
+  /* Tạo khoảng cách giữa radio button và văn bản */
+}
+
+/*---------------------------------------*/
+
+/* Form Footer */
+
+/*---------------------------------------*/
+
+.form-footer {
+  margin-block-start: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn {
+  font-size: 24px;
+  background-color: #4bab22;
+  color: #fff;
+  padding: 10px 70px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-link {
+  margin-block-start: 30px;
+}
+
+.btn:hover {
+  background-color: #4988ec;
+  /* Màu nền khi hover */
+}
